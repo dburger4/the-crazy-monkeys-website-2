@@ -1,0 +1,23 @@
+body {
+    /* padding-top: 5px; */
+    background-image: url(show-pic-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646
+}
+
+/* TODO: add smaller image for mobile devices
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(NEW IMAGE GOES HERE);
+    }
+} */
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 100;
+}
