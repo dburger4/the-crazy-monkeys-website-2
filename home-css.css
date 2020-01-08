@@ -1,11 +1,12 @@
 body {
     /* padding-top: 5px; */
-    background-image: url(show-pic-1.jpg);
+    background-image: url(show-pic-1-blue.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646
+    
 }
 
 /* TODO: add smaller image for mobile devices
@@ -20,4 +21,159 @@ body {
     text-align: center;
     font-size: 90px;
     font-weight: 100;
+    text-shadow: 1px 2px 3px black;
+    letter-spacing: 0.04em;
 }
+
+#subtitle {
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 1px 2px 3px black;
+    word-spacing: 0.3em;
+    letter-spacing: 0.15em;
+}
+
+#nav {
+    margin-top: 35px;
+}
+
+#coming-up-box {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    color: white;
+    min-width: 600px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+ 
+#coming-up-text {
+    font-weight: 400;
+}
+
+/* TODO: get rid of these container ids if i find out i never need them */
+/* #shows-container, #about-container, #members-container, #social-container, #contact-container {
+    
+    
+} */
+
+#shows, #about, #members, #social, #contact {
+    font-size: 70px;
+    font-weight: 80;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#shows {
+    /* text-shadow: 3px 4px 1px red; */
+    transition: 0.3s;
+}
+
+#shows:hover {
+    text-shadow: 3px 4px 1px rgb(255, 94, 0);
+    font-size: 75px;
+    line-height: 1.41;
+    transition: 0.3s;
+}
+
+#about {
+    /* text-shadow: 3px 4px 1px red; */
+    transition: 0.3s;
+}
+
+#about:hover {
+    text-shadow: 3px 4px 1px rgb(136, 255, 0);
+    font-size: 75px;
+    line-height: 1.41;
+    transition: 0.3s;
+}
+
+#members {
+    /* text-shadow: 3px 4px 1px red; */
+    transition: 0.3s;
+}
+
+#members:hover {
+    text-shadow: 3px 4px 1px rgb(0, 119, 255);
+    font-size: 75px;
+    line-height: 1.41;
+    transition: 0.3s;
+}
+
+#social {
+    /* text-shadow: 3px 4px 1px red; */
+    transition: 0.3s;
+}
+
+#social:hover {
+    text-shadow: 3px 4px 1px rgb(132, 0, 255);
+    font-size: 75px;
+    line-height: 1.41;
+    transition: 0.3s;
+}
+
+#contact {
+    /* text-shadow: 3px 4px 1px red; */
+    transition: 0.3s;
+}
+
+#contact:hover {
+    text-shadow: 3px 4px 1px rgb(255, 0, 85);
+    font-size: 75px;
+    line-height: 1.41;
+    transition: 0.3s;
+}
+
+#footer {
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    position:absolute;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+}
+
+#facebook-logo, #instagram-logo, #twitter-logo, #youtube-logo, #email-logo {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: blue;
+  /* height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none; */
+}
+
+/* .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */ */
