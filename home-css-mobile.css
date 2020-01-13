@@ -17,5 +17,19 @@ body {
 
 
 #coming-up-box {
-    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    color: white;
+    /* min-width: 300px;
+    max-width: 700px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+}
+ 
+#coming-up-text {
+    font-weight: 400;
 }
